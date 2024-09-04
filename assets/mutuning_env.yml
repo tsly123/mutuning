@@ -1,4 +1,4 @@
-name: prompt
+name: mutuning
 channels:
   - pytorch
   - nvidia
@@ -390,4 +390,4 @@ dependencies:
     - ypy-websocket==0.8.2
     - zenodo-get==1.3.4
     - zipp==3.18.1
-prefix: /home/stly/anaconda3/envs/prompt
+prefix: /home/stly/anaconda3/envs/mutuning
