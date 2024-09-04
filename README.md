@@ -21,4 +21,22 @@ PAPER IS AVAILABLE [HERE](https://github.com/tsly123/mutuning/blob/main/assets/m
 1. 2D data were download at the source of each dataset
 2. Download 3D data at[https://medmnist.com/](https://medmnist.com/)
 
-### Fine-tuning
+### Fine-tuning 2D
+Go to the folder `mu_2D` and run:
+
+`bash scripts/mvlpt/main_single_coopdata_cut.sh $trainer $config $num_token $shots $seed $lr $eval_bool $dataset $save_dir`
+
+### Fine-tuning 3D and higher-D
+Go to the folder `mu_3D` and run:
+
+`bash scripts/mvlpt/main_single_coopdata_cut.sh $trainer $config $num_token $shots $seed $lr $eval_bool $dataset $save_dir`
+
+`$trainer` - such as VPT, bias, SSF, ... are defined in file `scripts\mvlpt\main_single_coopdata_cut.sh` and `trainers`
+
+### TODO
+
+- [x] Upload running
+- [ ] Upload clean code
+- [ ] Update fine-tuning instruction
+
+
