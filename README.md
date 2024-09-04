@@ -35,7 +35,7 @@ Go to the folder `mu_3D` and run:
 
 ### TODO
 
-- [x] Upload running
+- [x] Upload running code
 - [ ] Upload clean code
 - [ ] Update fine-tuning instruction
 
